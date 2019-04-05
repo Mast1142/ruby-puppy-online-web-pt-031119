@@ -10,8 +10,8 @@ class Dog
   end
 
   def self.all
-    @@all.collect do |x|
-      puts "#{@@all}"
+    @@all.collect do |@name|
+      puts "#{@name}"
     end
   end
 

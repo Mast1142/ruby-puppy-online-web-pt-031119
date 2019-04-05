@@ -5,7 +5,6 @@ class Dog
   attr_accessor
 
   def initialize
-
     @@all << self
   end
 

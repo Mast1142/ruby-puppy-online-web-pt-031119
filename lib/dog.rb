@@ -7,10 +7,11 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
+    binding.pry
   end
 
   def self.all
-    @@all.each(@name) do |x|
+    @@all.each do |x|
       puts @name
     end
   end
